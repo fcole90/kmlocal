@@ -6,20 +6,20 @@
 //----------------------------------------------------------------------
 // Copyright (C) 2004-2005 David M. Mount and University of Maryland
 // All Rights Reserved.
-// 
+//
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation; either version 2 of the License, or (at
 // your option) any later version.  See the file Copyright.txt in the
 // main directory.
-// 
+//
 // The University of Maryland and the authors make no representations
 // about the suitability or fitness of this software for any purpose.
 // It is provided "as is" without express or implied warranty.
 //----------------------------------------------------------------------
 
 #include <iostream>			// file I/O
-#include <string>			// string ops
+#include <cstring>			// string ops
 #include <ctime>			// clock
 #include <cmath>			// math routines
 
@@ -30,7 +30,7 @@
 #include "KMlocal.h"			// k-means algorithms
 #include "KMrand.h"			// random point generation
 
-using cstring;
+
 
 //----------------------------------------------------------------------
 // kmltest
@@ -44,7 +44,7 @@ using cstring;
 // Overview:
 // ---------
 // The test program is run as follows:
-// 
+//
 // 	kmltest < test_input > test_output
 //
 // where the test_input file contains a list of directives as described
@@ -71,7 +71,7 @@ using cstring;
 // Stages are grouped into runs.  Intuitively, a run involves a
 // (small) number of stages in search of a better solution.  A run might
 // end, say, because a better solution was found or a fixed number of
-// stages have been performed without any improvement. 
+// stages have been performed without any improvement.
 //
 // After a run is finished, we check to see whether we want to accept
 // the solution.  Presumably this happens if the cost is lower, but it
@@ -198,7 +198,7 @@ using cstring;
 // -----------------
 // The test program can perform the following operations.  How these
 // operations are performed depends on the options which are described
-// later. 
+// later.
 //
 //	Data Generation:
 //	----------------
@@ -403,11 +403,11 @@ using cstring;
 //    distribution clus_gauss		# clustered gaussian distribution
 //    seed 1				# random number seed
 //  gen_data_pts			# generate the data points
-//  
+//
 //    max_tot_stage 20 0 0 0		# terminate Lloyd's after 20 stages
 //  print Running-lloyd's
 //  run_kmeans lloyd			# run using Lloyd's algorithm
-//  
+//
 //    max_swaps 3			# at most 3 swaps
 //    max_tot_stage 0 3 0 2		# at most 3*k^2 = 1200 stages
 //    max_run_stage 50			# at most 50 stages per run
@@ -636,7 +636,7 @@ static void initGlobals()
 //
 //	Syntax:
 //	kmltest [-i infile] [-o outfile]
-//	
+//
 //	where:
 //	    infile		directive input file
 //	    outfile		output file

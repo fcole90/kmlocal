@@ -79,28 +79,38 @@ what it does; nothing more, nothing less.  :-)
 History
 -------
 Version: 1.0	04/29/2002	Initial release
+
 Version: 1.01	10/02/2002	Modified output levels
+
 Version: 1.1	04/08/2003	Added EZ_Hybrid and dampening.  Fixed
 				memory leaks.
+
 Version: 1.2	09/13/2003	No changes to the program.  Created
 				documention directory.  Added sample
 				programs, kmlsample.cpp and kmlminimal.cpp.
+
 Version: 1.3	01/18/2004	No changes to the program.  Converted
 				license to GNU General Public License
+
 Version: 1.4	02/05/2004	No changes to the program.  Added a test
 				for kmlminimal and kmlsample in the test
 				directory.
+
 Version: 1.5	05/14/2004	Changed sample program kmlsample to
 				allow random point generation.  Made
 				minor changes for compilation under
 				Redhat Linux and Visual Studio.NET.
+
 Version: 1.6	03/09/2005	Fixed memory leak in KMfilterCenters.cpp,
 				added project file for Microsoft Studio.NET,
 				and fixed random number error for Microsoft
 				Visual C++.
+
 Version: 1.7	08/10/2005	Fixed errors in documentation.  Added
 				capability for reporting final assignment
 				to clusters.
+
 Version: 1.7.1	10/01/2005	No functional change. Corrected copyright
 				text in source files.
+
 Version: 1.7.2	01/27/2010	Minor updates for modern compilers.

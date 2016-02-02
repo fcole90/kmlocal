@@ -6,13 +6,13 @@
 //----------------------------------------------------------------------
 // Copyright (C) 2004-2005 David M. Mount and University of Maryland
 // All Rights Reserved.
-// 
+//
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation; either version 2 of the License, or (at
 // your option) any later version.  See the file Copyright.txt in the
 // main directory.
-// 
+//
 // The University of Maryland and the authors make no representations
 // about the suitability or fitness of this software for any purpose.
 // It is provided "as is" without express or implied warranty.
@@ -20,7 +20,7 @@
 
 #include <cstdlib>			// C standard includes
 #include <iostream>			// C++ I/O
-#include <string>			// C++ strings
+#include <cstring>			// C++ strings
 #include "KMlocal.h"			// k-means algorithms
 
 using namespace std;			// make std:: available
@@ -30,7 +30,7 @@ using namespace std;			// make std:: available
 //
 // This is a simple sample program for the kmeans local search on each
 // of the four methods.  After compiling, it can be run as follows.
-// 
+//
 //   kmlsample [-d dim] [-k nctrs] [-max mpts] [-df data] [-s stages]
 //
 // where
